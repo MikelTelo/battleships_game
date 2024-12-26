@@ -1,41 +1,49 @@
-# What is this about???:
+# 🚢 Battleship Game
 
-This program is the game Battleship where you can play agains the computer. Ships are placed randomly so you don't have to ... ;) , you just have to worry about to enter the coordinates and try to shink all the oponents ships in the minimum lauches posible (The computer shots randomly so it´s just a matter of your abilities).
+This program is a version of the classic game Battleship where you can play against the computer. Ships are placed randomly, so you only need to focus on entering the coordinates and trying to sink all of the opponent's ships in the fewest launches possible.
 
-# Minimimun requirements to run the game
+## 🖥️ Minimum Requirements
 
 - Python 3.x or later installed
 
-# where to find this proyect on the net
+## 📂 Where to Find This Project
+
+```
 git clone https://github.com/MikelTelo/dsft2409_mikeltelo/tree/main/Hundir%20la%20flota/battleships_game
+```
 
-# How run the game:
+## 🚀 How to Run the Game
 
-## If you are running windows:
-        1. execute CMD
-        2. type "cd space" folow by the directory where you have dowloaded the repository and press enter)
-        3. now type 'python main_game.py' (Then press enter)
-        4. follow the menu to play the game, read the instruccions or exit
-        5. Have fun!!!
+### Windows:
 
-## Instructions to Run the Battleships Game on Linux or macOS:
+1. Open CMD
+2. Type `cd` followed by the directory where you have downloaded the repository and press Enter
+3. Type `python main_game.py` and press Enter
+4. Follow the menu to play the game, read instructions, or exit
+5. Have fun!
 
-Open Terminal:
+### Linux or macOS:
 
-You can find the Terminal application in your Applications folder (macOS) or by searching for "Terminal" in your applications (Linux).
-Change Directory to the Repository:
+1. Open Terminal
+2. Change directory to the repository with `cd path/to/repository`
+3. Run `python3 main_game.py`
+4. Follow the menu to play the game, read instructions, or exit
+5. Have fun!
 
-In the Terminal, type cd followed by the path to the directory where you have downloaded the repository. Press Enter.
+## 📝 Game Instructions
 
-Run the Game: Type python3 main_game.py and press Enter.
-(If you have Python 2.x, replace python3 with python.)
+1. The game starts with two 10x10 boards: one for you and one for the computer.
+2. Ships are randomly placed on both boards.
+3. On your turn, enter the coordinates (row and column) where you want to shoot.
+4. The game will inform you whether you hit or missed.
+5. The computer will take its turn automatically.
+6. The objective is to sink all of your opponent's ships before they sink yours.
 
-Follow the Menu: You will see a menu to play the game, read the instructions, or exit.
-Have Fun!:
+## 🛠️ Technologies Used
 
-# Notes:
+- Python 3.x
+- Standard Python modules (random, os, time)
 
-Make sure that Python is installed on your system.
-If you encounter any issues, check to ensure you have all necessary dependencies installed.
+## 👥 Contributions
 
-
+Contributions are welcome! Please open an issue or submit a pull request to suggest changes or improvements.
